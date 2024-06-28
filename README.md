@@ -1,4 +1,3 @@
-# Screen-Point-and-Read (ScreenPR)
 
 **Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding**
 
@@ -9,6 +8,12 @@
 ## Abstract
 
 Graphical User Interfaces (GUIs) are central to our interaction with digital devices. Recently, growing efforts have been made to build models for various GUI understanding tasks. However, these efforts largely overlook an important GUI-referring task: screen reading based on user-indicated points, which we name the Screen Point-and-Read (ScreenPR) task. This task is predominantly handled by rigid accessible screen reading tools, in great need of new models driven by advancements in Multimodal Large Language Models (MLLMs). In this paper, we propose a Tree-of-Lens (ToL) agent, utilizing a novel ToL grounding mechanism, to address the ScreenPR task. Based on the input point coordinate and the corresponding GUI screenshot, our ToL agent constructs a Hierarchical Layout Tree. Based on the tree, our ToL agent not only comprehends the content of the indicated area but also articulates the layout and spatial relationships between elements. Such layout information is crucial for accurately interpreting information on the screen, distinguishing our ToL agent from other screen reading tools. We also thoroughly evaluate the ToL agent against other baselines on a newly proposed ScreenPR benchmark, which includes GUIs from mobile, web, and operating systems. Last but not least, we test the ToL agent on mobile GUI navigation tasks, demonstrating its utility in identifying incorrect actions along the path of agent execution trajectories. 
+
+## Todos
+
+- [ ] Add script inputs details
+- [ ] Add detail setup instruction
+- [ ] Add Evaluation scripts
 
 
 ## ToL agent
@@ -33,7 +38,7 @@ Graphical User Interfaces (GUIs) are central to our interaction with digital dev
 
     + We use the following script for the listed process:
         ```
-        python 
+        python src/ToL_after_region_detection.py
         ```
 
 ## Cycle consistency evaluation
