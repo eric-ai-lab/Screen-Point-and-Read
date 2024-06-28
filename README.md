@@ -31,7 +31,7 @@ git submodule sync
 git submodule update --remote
 ```
 
-The details about training and inference, please check [src/models/tol_gui_region_detection/README.md](src/models/tol_gui_region_detection/README.md).
+The details about training and inference, please check [src/models/tol_gui_region_detection/README.md](https://github.com/llv22/tol_gui_region_detection/).
 
 ## Target Path Selection & Prompting with Multi-lens
 
