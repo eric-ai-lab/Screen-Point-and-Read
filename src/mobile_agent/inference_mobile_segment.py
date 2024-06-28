@@ -9,9 +9,9 @@ from copy import copy
 
 def conf():
     argparser = argparse.ArgumentParser()
-    argparser.add_argument("--input_folder", type=str, default="../mobile_data/failed_agent_trajectory")
-    argparser.add_argument("--model_config", type=str, default="../models/mmdetection_forward/configs/dino/dino-4scale_r50_8xb2-90e_mobile_multi_bbox.py")
-    argparser.add_argument("--checkpoint", type=str, default="../models/mmdetection_forward/work_dirs/dino-4scale_r50_8xb2-90e_mobile_multi_bbox/epoch_90.pth")
+    argparser.add_argument("--input_folder", type=str, default="../data/failed_agent_trajectory")
+    argparser.add_argument("--model_config", type=str, default="../models/tol_gui_region_detection/configs/dino/dino-4scale_r50_8xb2-90e_mobile_multi_bbox.py")
+    argparser.add_argument("--checkpoint", type=str, default="../models/tol_gui_region_detection/work_dirs/dino-4scale_r50_8xb2-90e_mobile_multi_bbox/epoch_90.pth")
     argparser.add_argument("--batch_size", type=int, default=64)
     argparser.add_argument("--img_type", type=str, default="png;jpg;jpeg")
     return argparser.parse_args()
