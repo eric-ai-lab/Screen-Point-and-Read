@@ -15,13 +15,18 @@ Graphical User Interfaces (GUIs) are central to our interaction with digital dev
 - [Cycle Consistency Evaluation](#evaluation)
 
 (under construction)
-<!-- 
-## Hierarchical Layout Tree Construction
 
-We train a GUI region detection model to detect the local and global regions for each GUI screenshot, then construct the Hierarchical Layout Trees accordingly. The GUI region detection model is fine-tuned on the DINO detection model with [MMDetection](https://github.com/open-mmlab/mmdetection). We detail the training, evaluation and inference code in a seperate repo [here]().
+## GUI region detection model 
+We train a GUI region detection model to detect the local and global regions for each GUI screenshot. The GUI region detection model is fine-tuned on the DINO detection model with [MMDetection](https://github.com/open-mmlab/mmdetection). We detail the training, evaluation and inference code in a seperate repo [here]().
+
+
 
 
 ## Target Path Selection & Prompting with Multi-lens
+After we the tree construction, 
 
-Based on the output from the previous Hierarchical Layout Tree construction process, we select the target path in the tree based on the input point coordinate and then generate lenses as prompts.
- -->
+1. we select the target path in the tree based on the input point coordinate and 
+2. we generate lenses as prompts.
+
+Based on the output (a json file) from the previous Hierarchical Layout Tree construction process, we use the following script to 
+
