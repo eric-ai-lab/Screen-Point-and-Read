@@ -23,7 +23,7 @@ Graphical User Interfaces (GUIs) are central to our interaction with digital dev
 
 ## GUI region detection model
 
-We train a GUI region detection model to detect the local and global regions for each GUI screenshot. The GUI region detection model is fine-tuned on the DINO detection model with [MMDetection](https://github.com/open-mmlab/mmdetection), which is a git submodule for our main project. You need to use the following commands to finish the initialization
+We train a GUI region detection model to detect the local and global regions for each GUI screenshot. The GUI region detection model is fine-tuned on the DINO detection model with [MMDetection](https://github.com/open-mmlab/mmdetection), which is [a git submodule]((https://github.com/llv22/tol_gui_region_detection/)) for our main project. You need to use the following commands to finish the initialization
 
 ```bash
 git submodule init
