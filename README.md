@@ -54,5 +54,28 @@ Graphical User Interfaces (GUIs) are central to our interaction with digital dev
       1. initialize storage of target trajectories in [data/failed_agent_trajectory](data/failed_agent_trajectory)
       2. do inference for each screen in target trajectories
       3. analyze agent trajectory and generate verification result
-    
-    More details, refer to [Readme file](src/mobile_agent/READMD.md) of Verification of Mobile Navigation Agent Actions.
+
+    Checking **more details** in [Readme](src/mobile_agent/READMD.md) of Verification of Mobile Navigation Agent Actions.
+
+
+
+## Citation
+
+If you find it useful for your research and applications, please cite using this BibTeX:
+
+```bibtex
+@misc{fan2024readpointedlayoutawaregui,
+      title={Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding}, 
+      author={Yue Fan and Lei Ding and Ching-Chen Kuo and Shan Jiang and Yang Zhao and Xinze Guan and Jie Yang and Yi Zhang and Xin Eric Wang},
+      year={2024},
+      eprint={2406.19263},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.19263}, 
+}
+
+```
+
+## Author
+
+By Fan, Yue and Lei, Ding(Orlando), 2024@June.

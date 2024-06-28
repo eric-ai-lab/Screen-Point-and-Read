@@ -13,7 +13,7 @@ pip install numpy cv openai python-dotenv jupyter scikit-learn
 
 ```bash
 git lfs install
-git lfs pull.
+git lfs pull
 ```
 
 The picked-up mobile trajectories will be sync at [data/failed_agent_trajectory](../data/failed_agent_trajectory).
