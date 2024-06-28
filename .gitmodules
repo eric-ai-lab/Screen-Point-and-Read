@@ -1,0 +1,3 @@
+[submodule "src/models/tol_gui_region_detection"]
+	path = src/models/tol_gui_region_detection
+	url = https://github.com/llv22/tol_gui_region_detection.git
