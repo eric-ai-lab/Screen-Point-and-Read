@@ -170,3 +170,8 @@ local_segment/
 trajectory_with_evaluation.json
 ssr_statistic_agent_*.json
 .DS_Store
+
+# sub folder
+failed_agent_trajectory/
+mobile_pc_web_osworld/
+screendata/

@@ -27,6 +27,7 @@ Graphical User Interfaces (GUIs) are central to our interaction with digital dev
         git submodule update --remote
         ```
 
+    +  To setup required datasets for training and inference, please follow the guide in [data/README.md](data/README.md) to download Android Screen Hierarchical Layout (ASHL), Screen Point-and-Read Benchmark (ScreenPR) and Mobile Trajectory Verification datasets.
     +  About the details about training and inference, please check the step-by-step guide in [src/models/tol_gui_region_detection/README.md](https://github.com/llv22/tol_gui_region_detection/).
 
 + ### GUI Hierarchical Layout Tree construction, Target Path Selection & Prompting with Multi-lens
