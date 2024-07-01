@@ -847,3 +847,6 @@ data/failed_agent_trajectory/366_1/task366_5.xml filter=lfs diff=lfs merge=lfs -
 data/failed_agent_trajectory/783_0/image_to_bbox_and_scores.json filter=lfs diff=lfs merge=lfs -text
 data/failed_agent_trajectory/2080_3/task2080_4.jpeg filter=lfs diff=lfs merge=lfs -text
 data/failed_agent_trajectory/382_0/plan_execution_annotated_status.json filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.xml filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
