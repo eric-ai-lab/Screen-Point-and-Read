@@ -2,7 +2,7 @@
 **Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding**
 
 [![Paper](https://img.shields.io/badge/Arxiv%20-Visit-red)](http://arxiv.org/abs/2406.19263)
-[![Project Webpage](https://img.shields.io/badge/Project%20Webpage-Visit-blue)](screen-point-and-read.github.io)
+[![Project Webpage](https://img.shields.io/badge/Project%20Webpage-Visit-blue)](https://screen-point-and-read.github.io)
 [![Hugging Face Data Page](https://img.shields.io/badge/Hugging%20Face%20Data%20Page-Visit-orange)](https://huggingface.co/datasets/yfan1997/ScreenPR)
 
 ## Abstract
