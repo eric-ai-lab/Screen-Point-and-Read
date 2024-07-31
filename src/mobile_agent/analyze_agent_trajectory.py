@@ -1097,8 +1097,6 @@ if __name__ == "__main__":
         trajectories = json.load(f)
         for t in trajectories:
             t_folder = f"{parent_folder}/{t}"
-            if t_folder != "../mobile_data/failed_agent_trajectory/365_1":
-                continue
             logger.info(f"Analyzing agent trajectory: {t_folder}")
             # see: clean up heuristic_images and 
             Path(f"{t_folder}/local_segment/heuristic").exists() and [p.unlink() for p in Path(f"{t_folder}/local_segment/heuristic").iterdir()] and Path(f"{t_folder}/local_segment/heuristic").rmdir()
@@ -1118,8 +1116,6 @@ if __name__ == "__main__":
             if category is None or app is None:
                 raise ValueError(f"Category or app name is not found in the app file {args.app_file} for {t_folder} folder for trajectory {trajectory_file}")
             for i, step in enumerate(trajectory['executions']):
-                if i != 1:
-                    continue
                 if 'action' in step:
                     # see: check if current folder has been processed already
                     step_image = f"{t_folder}/{step['image']}"
